@@ -1,0 +1,24 @@
+langchain
+langchain-community
+langchain-text-splitters
+pypdf
+sentence-transformers
+pinecone
+numpy
+fastapi
+uvicorn
+jinja2
+python-multipart
+google-genai
+
+# pip install -r requirements.txt
+
+# run python main.py it is to run the main.py file
+
+# python -m uvicorn main:app --reload it is based on uvicorn server
+
+# docker run -p 8000:8000 --env-file .env rag-chatbot it is to run the docker container
+
+# docker system prune -a it is to remove all the unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.
+
+# docker build --no-cache -t rag-chatbot . it is to build the docker image without using cache
