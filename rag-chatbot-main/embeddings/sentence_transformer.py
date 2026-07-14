@@ -1,5 +1,8 @@
 from sentence_transformers import SentenceTransformer
+import os
 
+os.environ["HF_HUB_DOWNLOAD_TIMEOUT"] = "300"
+os.environ["HF_HUB_ETAG_TIMEOUT"] = "300"
 
 class SentenceTransformerEmbedding:
 
